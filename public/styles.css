@@ -21,8 +21,11 @@ ul {
 }
 
 li {
+    color: #DDFFF7;
+    background-color: #D8A3C2;
     padding: 6px 10px;
-    border: 1px solid #eee;
+    border-radius: 15px;
+    border: 1px solid #891056;
     margin: 10px auto;
 }
 
@@ -38,10 +41,14 @@ li p {
 }
 
 footer {
-    background: #eee;
+    max-width: 1000px;
+    border-radius: 20px;
     padding: 60px;
-    margin-top: 60px;
+    margin: 60px auto 0 auto;
     background-color: #E7C1CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
@@ -54,7 +61,7 @@ form {
 label {
     display: block;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: #333;
     margin: 16px 0 6px;
 }
@@ -93,4 +100,13 @@ footer a {
     color: #999;
     margin-top: 40px;
     font-size: 0.7em;
+}
+
+input label {
+    background-color: #FFEBC5;
+}
+
+.new-item-form {
+    margin: 0 auto;
+    padding: 0px 10px;
 }
